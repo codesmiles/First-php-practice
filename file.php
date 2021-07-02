@@ -14,6 +14,22 @@ echo "<hr/>";
 echo "<p>This is my site</p>";
 
 
+$characterName = "Tom";
+$characterAge = 50;
+
+echo "There once was a man named $characterName <br/>";
+echo "He was $characterAge years old<br/>";
+
+$characterName = "mike";
+$characterAge = 23;
+echo "There once was a man named $characterName <br/>";
+echo "He was $characterAge years old<br/>";
+
+// george and 70
+echo "He really likes the name George <br/>";
+echo "But he didnt like being 70 <br/>"
+
+
 ?>
     
 </body>
