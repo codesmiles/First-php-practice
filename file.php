@@ -58,5 +58,7 @@ echo str_replace("no", "is", $truewords);
 echo substr ($truewords, 8);
 
 ?>
+
+
 </body>
 </html>
