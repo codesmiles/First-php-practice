@@ -14,7 +14,8 @@
 // echo 50.999;
 // echo 8 % 3 * 6;
 // $num = 6;
-// echo $num++;
+// $num += 4;
+// echo $num;
 // echo abs(-300);
 // echo pow(3,4);
 // echo max(2,20);
@@ -30,17 +31,26 @@
 
 
 ?>
+<!-- How php interacts with the web -->
+<!-- <form action="index.php" method="get">
 
-<form action="index.php" method="get">
-
-<label for="name">Name:</label> <input type="text" name='userID'>
+<label for="name">Name:</label><br> <input type="text" name='userID'>
 <br>
-<label for="age">Age:</label> <input type="number" name='age'> 
-<br>
+<label for="age">Age:</label> <br><input type="number" name='age'> 
+<br> <br>
 <input type="submit">
 </form>
 <p>Your name is <?php echo $_GET["userID"]?></p>
 
-<p>Your age is <?php echo $_GET["age"]?></p>
+<p>Your age is <?php echo $_GET["age"]?></p> -->
+
+<!-- creating a basic calculator -->
+<form action="index.php" method="get">
+<input type="number" name="num1"><br>
+<input type="number" name="num2" id=""><br>
+<input type="submit">
+</form>
+Your answer is: <?php echo $_GET["num1"] + $_GET["num2"];?>
+
 </body>
 </html>
