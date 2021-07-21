@@ -25,12 +25,22 @@
     echo "I love $celebrity";
     ?>
 
-     <!-- URL parameter -->
+    <!-- URL parameter -->
      <form action="site.php" method="get">
      Name: <input type="text" name="name"><br>
      <input type="submit">
-
      </form>
+
      <?php echo $_GET["name"]?>
+
+<!-- password use of POST method -->
+     <form action="site.php" method="post">
+     Password: <input type="password" name="password"><br>
+     <input type="submit">
+     </form>
+    
+    <?php echo $_POST["password"];?>
+
+
 </body>
 </html>
