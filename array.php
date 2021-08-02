@@ -10,6 +10,9 @@
 
     <!-- ARRAY (can stor more than one piece data)-->
     <?php
+
+
+
     $friends = array("mike", 1,"max", false, "mide","mildness");
     // echo $friends[0];
     $friends[2] = "mitchel";
@@ -46,7 +49,7 @@
     <!-- NOTE make sure the keys are unique -->
     <?php
     $checkups = array("peter"=>"Peter is stubborn", "Michael"=>"Michael is annoying","Peace"=>"Peace Aka Mummy Trinity The master complaint machine");
-    echo $checkups["Peace"]; //Output:Peace AKA mummy trinity the master complaint machine
+    echo $checkups["Peace"];  //Output:Peace AKA mummy trinity the master complaint machine
     echo count($checkups); //Output:3
     ?>
     
@@ -55,7 +58,7 @@
         <input type="submit">
     </form>
     <?php
-    $grades = array("peter"=>"D", "Michael"=>"B-","Peace"=>"C+");
+    $grades = array("peter"=>"D", "michael"=>"B-","peace"=>"C+");
     echo $grades[$_POST["student"]];
     ?>
 </body>

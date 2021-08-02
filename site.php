@@ -11,7 +11,7 @@
     <form action="site.php" method="get">
     color:<input type="text" name="color" placeholder="color"><br>
     Plural noun:<input type="text" name="pluralNoun" placeholder="plural noun"><br>
-    Celebrity:<input type="text" name="celebrity" placeholder="celerity"><br>
+    Celebrity:<input type="text" name="celebrity" placeholder="celebrity"><br>
     <input type="submit">
     </form>
     
