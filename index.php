@@ -11,18 +11,27 @@
 // Numbers methods in php
 
 
-// echo 50.999;
-// echo 8 % 3 * 6;
-// $num = 6;
-// $num += 4;
-// echo $num;
-// echo abs(-300);
-// echo pow(3,4);
-// echo max(2,20);
-// echo min(3, 30);
-// echo round(3.5);
-// echo ceil(4.555);
-// echo floor(4.9);
+echo 50.999;
+echo 8 % 3 * 6;
+$num = 6;
+$num += 4;
+echo $num;
+echo abs(-300);
+echo pow(3,4);
+echo max(2,20);
+echo min(3, 30);
+echo round(3.5);
+echo ceil(4.555);
+echo floor(4.9);
+
+// PHP number constants 
+echo PHP_INT_MAX ."<br/>" ;/*max int in php  */
+echo PHP_INT_MIN ."<br/>" ;/*min int in php  */
+echo PHP_INT_SIZE ."<br/>" ;/*size int in php  */
+
+// var_dump() gives output of both the datatype and the data
+// is_int/is_integer/is_long is to check if a variable/value is an integer and gives a boolean output
+var_dump(is_int(300));
 
 // search for php math functions for more intell
 

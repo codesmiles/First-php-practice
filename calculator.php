@@ -9,12 +9,13 @@
 <body>
 <form action="" method="POST">
 
-First number: <input type="number" name="num1" id="">
+First number: <input type="number" step="0.001" name="num1" id="">
 
-Operator:<input type="text" name="op" id="">
+OP:<input type="text" name="op" id="">
 
 Second Number:<input type="number" name="num2" id="">
-<input type="button" value="Submit">
+
+<input type="submit" value="Submit">
 
 </form>
 
